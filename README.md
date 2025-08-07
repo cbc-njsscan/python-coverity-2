@@ -8,3 +8,4 @@ Userspace script to split controller input for the Shanwan Wireless Twin control
   - Install using [pip](https://pip.pypa.io/en/stable/installing/#id7): `pip install python-uinput`
 - Supported controller. Find using `dmesg` and applying a grep pattern `'(?<=2563:0555\.\d{4}: input,)\w{6}\d'`
    - Example (flags may differ on your grep install): `dmesg | grep -oP '(?<=2563:0555\.\d{4}: input,)\w{6}\d'`
+test
